@@ -67,4 +67,35 @@ h4{
 .navbar a:hover{
     background-color: rgb(50, 50, 50);
     border-radius: 9px;
+    cursor: pointer;
+}
+.contactdd{
+    position: relative;
+}
+.contactdd p{
+    cursor: default;
+    padding:  15px;
+    margin: 0px;
+}
+.contactdd p:hover{
+    background-color: rgb(50, 50, 50);
+    border-radius: 9px;
+}
+.contactdd .contacts {
+    background-color: rgb(20, 20, 20);
+    border: 3px solid rgb(20, 20, 20);
+    border-radius: 12px;
+    position: absolute;
+    right: 0px;
+    visibility: hidden;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.contactdd:hover .contacts{
+    visibility: visible;  
+    opacity: 0.9;
+}
+.contactdd .contacts a{
+    cursor: pointer;
 }
