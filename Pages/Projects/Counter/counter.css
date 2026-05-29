@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Nunito;
+    src: url(Portfolio/Nunito-VariableFont_wght.woff2);
+    font-weight: 400 900;
+}
+body{
+    background-color: rgb(41, 41, 41);
+    color: whitesmoke;
+    
+}
