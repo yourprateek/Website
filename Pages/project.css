@@ -34,6 +34,9 @@ h2{
     border-radius: 8px;
     box-shadow: 2px 2px 1px whitesmoke;
 }
+.minproj a .content:hover{
+    filter: brightness(1.5);
+}
 #Counter{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(30, 30, 30, 0.4) 50%) ,
     url(./Projects/Images/Counter.png);

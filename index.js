@@ -1,6 +1,6 @@
 console.log(`Hello`);
 
-//copy
+/*copy
 const copyLink = document.querySelector('.tocopy');
 const statusMsg = document.getElementById('copystatus');
 
@@ -22,3 +22,4 @@ copyLink.addEventListener('click', function(event){
       console.error('Failed to copy text: ', err);
     });
 });
+*/
