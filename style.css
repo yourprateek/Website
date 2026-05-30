@@ -106,3 +106,18 @@ h2{
 .contactdd .contacts a{
     cursor: pointer;
 }
+
+.status-msg {
+  margin-left: 10px;
+  color: #2e7d32;
+  font-weight: bold;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  display: none;
+}
+.status-msg.visible {
+  display: inline-block;
+  opacity: 1;
+}
